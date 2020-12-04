@@ -1,0 +1,27 @@
+.listKeranjang__container {
+  font-size: small;
+}
+
+.product__name {
+  max-width: 10vw;
+}
+
+.Product__cost {
+  width: 10vw;
+}
+
+.listKeranjang__counter {
+  width: 10vw;
+}
+
+.btnCounter {
+  font-size: smaller;
+}
+
+.btnHapus {
+  font-size: small;
+  padding: 1px;
+  margin-top: 30px;
+  margin-left: 15px;
+  /* align-items: center; */
+}

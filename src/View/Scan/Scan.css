@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat";
+  box-sizing: border-box;
+}
+
+.navtop {
+  background-color: green;
+}
+
+.judul {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  pointer-events: none;
+  margin-left: -1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+h5 {
+  color: #0f6cfb;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.image-upload > input {
+  display: none;
+}
+
+#output {
+  max-height: 30vh;
+  max-width: 100vh;
+  min-height: 300px;
+  min-width: 300px;
+  text-align: center;
+}
+
+.image-upload {
+  text-align: center;
+}
+
+.scan {
+  background-color: #0f6cfb;
+  display: block;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px transparent;
+  transition: 0.2s ease-in;
+  margin-bottom: 3rem;
+}
+
+a.scan:hover {
+  background-color: transparent;
+  color: #0f6cfb;
+  text-decoration: none;
+  border: 1px solid #0f6cfb;
+}
+
+.align-center {
+  text-align: center;
+}

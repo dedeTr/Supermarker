@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat";
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.navtop {
+  background-color: green;
+}
+
+.judul {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-decoration: none;
+  text-decoration: none;
+  pointer-events: none;
+  margin-left: 2vw;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+img {
+  display: block;
+  max-width: 22vw;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+#jumlah-barang-input {
+  width: 2rem;
+  text-align: center;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.kembali {
+  background-color: #0f6cfb;
+  display: block;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px transparent;
+  transition: 0.2s ease-in;
+  margin-bottom: 2rem;
+}
+
+a.kembali:hover {
+  background-color: transparent;
+  color: #0f6cfb;
+  text-decoration: none;
+  border: 1px solid #0f6cfb;
+}
+
+.head__table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table_width {
+  /* width: 100%; */
+}
+
+.btnCounter {
+  font-size: 12pt;
+  width: 2vw;
+  height: 9vw;
+}
+
+.jumlah__keranjang {
+  margin-top: 20px;
+}
