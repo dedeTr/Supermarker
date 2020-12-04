@@ -9,6 +9,9 @@ function Routes() {
         <barPredict />
         
           <Switch>
+            <Route exact path="/">
+                  <Scan />
+            </Route>
             <Route path="/scan">
               <Scan />
             </Route>
